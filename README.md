@@ -1,1 +1,1 @@
-small resume and price list for webdev using github pages
+small page with price list for webdev services using github pages
