@@ -1,1 +1,1 @@
-small page with price list for webdev services using github pages
+small page with a price list for webdev services using github pages
