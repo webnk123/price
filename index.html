@@ -61,9 +61,9 @@
    <img id="myImg2" src="img/Screenshot_20220418-211549.png" alt="сайт реселлера marc jacobs (мобильная версия)" style="width:100%;max-width:100px">
 	  
 	  
-	  <img id="myImg" src="img/outletpc.png" alt="сайт интернет-магазина UGG (пк версия)" style="width:100%;max-width:300px">
+	  <img id="myImg3" src="img/outletpc.png" alt="сайт интернет-магазина UGG (пк версия)" style="width:100%;max-width:300px">
 	  
-	  <img id="myImg" src="Screenshot_20220419-124551.png" alt="сайт интернет-магазина UGG (мобильная версия)" style="width:100%;max-width:100px">
+	  <img id="myImg4" src="img/Screenshot_20220419-124551.png" alt="сайт интернет-магазина UGG (мобильная версия)" style="width:100%;max-width:100px">
 	  
 	  
 	  <br>
@@ -184,6 +184,8 @@ var modal = document.getElementById("myModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var img2 = document.getElementById("myImg2");
+var img3 = document.getElementById("myImg3");
+var img4 = document.getElementById("myImg4");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
@@ -193,6 +195,18 @@ img.onclick = function(){
 }
 	  
 img2.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+	  
+img3.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+img4.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
